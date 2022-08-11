@@ -12,6 +12,8 @@ Continued development/Short falls:
 
 1) Smarter way to make responsive dimensions (height and width) when switching between mobile and desktop (using media queries).
 2) Changing text (format) when switching between mobile and desktop (using media queries).
+
+outline: 1px solid black;
 */
 :root {
     --cyan: hsl(179, 62%, 43%); /*Primary*/
@@ -23,7 +25,6 @@ Continued development/Short falls:
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    utline: 1px solid black;
 }
 html{
     background-color: ;
@@ -63,7 +64,6 @@ article{
     justify-content: space-around;
     padding:1rem;
     background-color: var(--cyan);
-   
     }
 section{
     width:100%;
